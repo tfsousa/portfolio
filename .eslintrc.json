@@ -37,7 +37,10 @@
 		"no-useless-concat": "error",
 		"no-useless-return": "error",
 		// Stylistic Issues
-		"array-bracket-newline": ["error", { "multiline": true, "minItems": null }],
+		"array-bracket-newline": [
+			"error",
+			{ "multiline": true, "minItems": null }
+		],
 		"array-bracket-spacing": "error",
 		"brace-style": ["error", "1tbs", { "allowSingleLine": true }],
 		"block-spacing": "error",
@@ -56,7 +59,10 @@
 		"no-unneeded-ternary": "error",
 		"no-whitespace-before-property": "error",
 		"nonblock-statement-body-position": "error",
-		"object-property-newline": ["error", { "allowAllPropertiesOnSameLine": true }],
+		"object-property-newline": [
+			"error",
+			{ "allowAllPropertiesOnSameLine": true }
+		],
 		"quote-props": ["error", "as-needed"],
 		"quotes": ["error", "single"],
 		"semi": ["error", "never"],
@@ -79,7 +85,7 @@
 	},
 	"env": {
 		"jest/globals": true,
-		"es6": true,
+		"es2021": true,
 		"browser": true,
 		"node": true
 	},

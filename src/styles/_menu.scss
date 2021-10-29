@@ -1,0 +1,25 @@
+.menu {
+    position: absolute;
+    top: 0;
+    height: 5rem;
+    width: 100%;
+    // background-color: red;
+    transition: all .6s cubic-bezier(.8,-.5,.3,1.4);
+    opacity: 0;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.btn {
+    transition: all .6s cubic-bezier(.8,-.5,.3,1.4);
+}
+
+.menu:hover {
+    opacity: 1;
+    height: 4rem;
+
+    .btn {
+        transform: translateY(100%);
+    }
+}
