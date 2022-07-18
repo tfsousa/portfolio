@@ -1,3 +1,10 @@
+import { Header } from 'presentation/components'
+
 export const Home = () => {
-	return <div>Test</div>
+	return (
+		<>
+			<Header />
+			<div>Test</div>
+		</>
+	)
 }
